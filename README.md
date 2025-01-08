@@ -38,7 +38,7 @@ iex> "3 days and 4 hours" |> HumanToMillis.parse
 iex> HumanToMillis.parse("3 days, 4 hours and 36 seconds")
 277236000
 
-iex> HumanToMillis.parse("4 months, 3 days, 5 hours and forty-five seconds")
+iex> HumanToMillis.parse("4 months, 3 days, 5 hours and 45 seconds")
 11027345000
 ```
 
